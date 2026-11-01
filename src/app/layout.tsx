@@ -22,22 +22,24 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pixelkitz.vercel.app"),
   title: {
-    template: "%s | PixelKit Tools",
-    default: "PixelKit Tools - Free Client-Side Image Utilities",
+    template: "%s | PixelKitz",
+    default: "PixelKitz - Free Online Image Compressor, Resizer & Converter",
   },
   description:
-    "Compress, resize, and convert images directly in your browser. Fast, private, and 100% client-side with zero server uploads.",
+    "Compress, resize, and convert images online for free with PixelKitz. Fast, secure, private, and browser-based image tools. No uploads required.",
   keywords: [
-    "image compressor",
+    "PixelKitz",
+    "free online image compressor",
     "image resizer",
     "image converter",
-    "webp to jpeg",
-    "png to jpeg",
+    "WebP to JPG",
+    "PNG to JPG",
     "browser image tools",
-    "client-side image optimization",
+    "private image optimization",
   ],
-  authors: [{ name: "PixelKit Tools" }],
+  authors: [{ name: "PixelKitz" }],
   robots: {
     index: true,
     follow: true,
@@ -46,7 +48,6 @@ export const metadata: Metadata = {
     google: "23Rz3lsgw6tZKtWTFhUGdEDi8d2pCQanTTaqpHhr6y0",
   },
 };
-
 export default function RootLayout({
   children,
 }: {
